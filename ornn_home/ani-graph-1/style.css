@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  outline: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+  line-height: 1.4;
+  height: 100vh;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+}
+
+
+.brand-progress-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.brand-progress-box {
+  width: 90%;
+  height: 400px;
+  color: #1f1f1f;
+  
+}
+.brand-progress-box .titleBox {
+  margin-bottom: 38px;
+}
+.brand-progress-box .titleBox h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #4B62F3;
+  text-align: left;
+}
+
+.brand-progress-box .brandBox .brand-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+}
+.brand-progress-box .brandBox .brand-item p {
+  font-weight: 400;
+  white-space: nowrap;
+}
+.brand-progress-box .brandBox .brand-item .brand-name {
+  font-size: 18px;
+  width: 96px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-right: 8px;
+}
+.brand-progress-box .brandBox .brand-item .brand-per {
+  font-size: 15px;
+  margin-right: 15px;
+  width: 30px;
+  text-align: right;
+}
+
+.brand-progress-box .brandBox .brand-item .brand-progressBox {
+  width: 280px;
+}
+/* .brand-progress-box .brandBox.active .brand-item .brand-progress */
+.brand-progress-box .brandBox .brand-item .brand-progress {
+  height: 21px;
+  width: 0;
+  background-color: #1F2E8F;
+  animation: ani 1s ease-out;
+}
+
+@keyframes ani {
+  0% {
+    width: 0;
+  }
+}
+

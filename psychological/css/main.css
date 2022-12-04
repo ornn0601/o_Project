@@ -1,0 +1,33 @@
+#main {
+    background-color: whitesmoke;
+    width: 80%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+@media all and (min-width: 1800px) {
+    p {
+        font-size: 24px;
+    }
+}
+
+@media all and (max-width: 980px) {
+    p {
+        font-size: 20px;
+    }
+}
+@media all and (max-width: 767px) {
+
+    #main {
+        width: 90%;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}

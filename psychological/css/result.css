@@ -1,0 +1,104 @@
+#result {
+    display: none;
+    background-color: whitesmoke;
+    width: 80%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#shareResult {
+    background-color: whitesmoke;
+    width: 80%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+.resultname {
+    font-size: 26px;
+}
+
+.resultDesc {
+    font-size: 20px;
+}
+
+.kakao {
+    color: white;
+    background-color: #FEE500;
+    font-size: 20px;
+    border: 1px solid #FEE500;
+    border-radius: 999px;
+}
+
+.kakao:hover, .kakao:focus {
+    background-color: whitesmoke;
+    color: black;
+    border: 1px solid red;
+}
+
+.gohome {
+    color: white;
+    background-color: pink;
+    font-size: 20px; 
+    border: 1px solid pink;
+    border-radius: 999px;
+}
+
+.gohome:hover, .gohome:focus {
+    background-color: whitesmoke;
+    color: pink;
+    border: 1px solid pink;
+}
+
+@media all and (min-width: 1800px) {
+    .resultname {
+        font-size: 30px;
+    }
+
+    .resultDesc {
+        font-size: 24px;
+    }
+
+    .kakao {
+        font-size: 24px;
+    }
+
+    .gohome {
+        font-size: 24px; 
+    }
+}
+
+@media all and (max-width: 980px) {
+    .resultname {
+        font-size: 26px;
+    }
+
+    .resultDesc {
+        font-size: 20px;
+    }
+
+    .kakao {
+        font-size: 20px;
+    }
+
+    .gohome {
+        font-size: 20px; 
+    }
+}
+@media all and (max-width: 767px) {
+    .resultname {
+        font-size: 20px;
+    }
+
+    .resultDesc {
+        font-size: 16px;
+    }
+
+    .kakao {
+        font-size: 16px;
+    }
+
+    .gohome {
+        font-size: 16px; 
+    }
+}
